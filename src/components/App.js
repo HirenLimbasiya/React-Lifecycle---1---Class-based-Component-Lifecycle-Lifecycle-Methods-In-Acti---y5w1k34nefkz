@@ -18,6 +18,9 @@ class App extends React.Component {
   componentDidUpdate(){
     console.log("rendered")
   }
+  componentDidMount(){
+    console.log("rendered")
+  }
 
   render() {
     return (
